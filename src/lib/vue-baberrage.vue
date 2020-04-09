@@ -97,6 +97,9 @@ export default {
     // 放置函数
     posRender: {
       type: Function
+    },
+    click: {
+      type: Function
     }
   },
   data () {

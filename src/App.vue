@@ -10,6 +10,7 @@
         :loop = "barrageLoop"
         :maxWordCount = "60"
         :hoverLanePause = "hoverLanePause"
+        :click="test"
         >
         <!-- <template v-slot:default="slotProps">
           <span style="color: #000; padding: 15px;">
@@ -55,6 +56,9 @@ export default {
   methods: {
     removeList () {
       this.barrageList = []
+    },
+    test () {
+      console.log('123')
     },
     addToList () {
       if (this.position === 'top') {
