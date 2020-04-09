@@ -30,7 +30,7 @@
 		},
 		methods: {
 			test (v) {
-				console.log(v)
+				console.log(v + '======' + v)
 			}
 		}
 	}
